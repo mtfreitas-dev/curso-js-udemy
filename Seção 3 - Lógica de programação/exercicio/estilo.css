@@ -1,0 +1,39 @@
+@charset "UTF-8";
+
+*{
+    padding: 0px;
+    margin: 0px;
+}
+
+body{
+    background-color: rgba(5, 46, 99, 0.897);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+section{
+    margin: 20px;
+    padding: 50px;
+    height: 50vh;
+    width: 50%;
+    background-color: white;
+    border-radius: 20px;
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+label {
+    color: white;
+    background-color: rgba(5, 46, 99, 0.897);
+    padding: 30px;
+    margin: 10px;
+    border-radius: 20px;
+}
+
+input{
+    margin: 10px;
+}

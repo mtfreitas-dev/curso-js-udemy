@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body{
+    background-color: rgb(6, 75, 79);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+section{
+    
+    width: 50%;
+    height: 250px;
+    background-color: white;
+    border-radius: 20px;
+    margin: 50px;
+    padding: 20px;
+    text-align: center;
+    font-size: 1.5em;
+}
+
+section p {
+    font-size: 3em;
+}
+
+input{
+    padding: 10px;
+    margin: 10px;
+}
+
+.relogio-pausar{
+    color: red;
+}
