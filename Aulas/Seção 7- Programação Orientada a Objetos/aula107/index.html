@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Classes</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Formulário de cadastro</h1>
+        <ul>
+            <li>Nenhum campo pode estar vazio</li>
+            <li>Usuário só poderá conter letras e/ou números</li>
+            <li>Usuário deverá ter entre 3 e 12 caracteres</li>
+            <li>Senha precisa ter entre 6 e 12 caracteres</li>
+        </ul>
+
+        <form action="/" method="post" class="formulario">
+            <p>Nome</p><input type="text" class="nome">
+            <p>Sobrenome</p><input type="text" class="sobrenome">
+            <p>CPF</p><input type="text" class="cpf">
+            <p>Usuário</p><input type="text" class="usuario">
+            <p>Senha</p><input type="text" class="senha">
+            <p>Repetir senha</p><input type="text" class="repetir-senha">
+            
+        <br>
+
+        <button>Enviar</button>
+        </form>
+    </div>
+
+    <script src="index.js"></script>
+</body>
+</html>
