@@ -2,6 +2,9 @@ const express = require('express');
 const app = express();
 const routes = require('./routes');
 const path = require('path');
+const middlware = require('./src/middlewares/middleware.js')
+
+app.use(middlware)
 
 app.use(express.urlencoded({extended: true}));
 
